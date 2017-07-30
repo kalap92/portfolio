@@ -5,6 +5,11 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'twitter', '~> 5.11.0'
+gem 'dotenv-rails'
+gem 'koala'
+gem 'pry'
+gem 'pry-nav'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'devise'
 gem 'haml-rails', '~> 0.9'
