@@ -5,6 +5,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'gon'
+gem 'jquery-rails'
+gem 'd3-rails'
 gem 'twitter', '~> 5.11.0'
 gem 'dotenv-rails'
 gem 'koala'

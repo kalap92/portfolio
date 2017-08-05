@@ -3,6 +3,7 @@ class TweetsController < ApplicationController
 
   def home
     trending_tweets
+    gon.trending_hashtags = @trending_hashtags
   end
 
   private
